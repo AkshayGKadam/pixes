@@ -1,0 +1,19 @@
+{
+    "name": "Pixes",
+    "short_name": "Pixes",
+    "icons": [
+      {
+        "src": "/assets/assets/images/pngegg.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/assets/images/pngegg.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone"
+  }
+  

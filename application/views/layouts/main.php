@@ -11,6 +11,14 @@
     if(!empty($extra_js)){ echo $extra_js; }
 ?>
 
+<script type="module">
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+</script>
+
 </div>
 <script>
     var base_url = "<?php echo base_url(); ?>";
@@ -27,4 +35,5 @@
     </div>
 </div>
 
+<script src="<?php echo base_url('index.js'); ?>"></script>
 <script src="<?php echo base_url('assets/assets/js/api.js'); ?>"></script>
